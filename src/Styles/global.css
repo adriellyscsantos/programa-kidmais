@@ -9,4 +9,13 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
-
+::-webkit-scrollbar {
+    background-color: #fff;
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background-color:  #F8DE44;
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.10);
+}

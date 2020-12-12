@@ -2,6 +2,7 @@ import '../Styles/Components/galeria.css'
 
 const Galeria = () => {
   
+  // eslint-disable-next-line
 const Cards = ((() => {
     
     window.addEventListener('DOMContentLoaded', () => {setTimeout(init,1)}, true);
@@ -13,12 +14,15 @@ const Cards = ((() => {
         let cards = document.querySelector(".cards");
         cards.addEventListener('click', clicked, false);
         document.querySelectorAll(".cards .card")[1].click();
+       
+        
       }
     }
   
    
     function clicked(e)
     {
+      
       let card = e.target;
       if(card.getAttribute("data-card")){rearrange(card.getAttribute("data-card"));}
     }
@@ -34,17 +38,20 @@ const Cards = ((() => {
         cards[n].classList.remove("card--right");
       }
       cards[card].classList.add("card--center");
-      if(card === 0)
+      // eslint-disable-next-line
+      if(card == 0)
       {
         cards[2].classList.add("card--left");
         cards[1].classList.add("card--right");
       }
-      if(card === 1)
+      // eslint-disable-next-line
+      if(card == 1)
       {
         cards[0].classList.add("card--left");
         cards[2].classList.add("card--right");
       }
-      if(card === 2)
+      // eslint-disable-next-line
+      if(card == 2)
       {
         cards[1].classList.add("card--left");
         cards[0].classList.add("card--right");
@@ -57,7 +64,9 @@ const Cards = ((() => {
     }
   })());
     return(
+      
         <>
+       
 <div className="cards">
   <div className="card fill-orange" data-card="0">
    
