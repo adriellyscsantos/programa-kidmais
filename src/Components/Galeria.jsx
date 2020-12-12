@@ -34,17 +34,17 @@ const Cards = ((() => {
         cards[n].classList.remove("card--right");
       }
       cards[card].classList.add("card--center");
-      if(card == 0)
+      if(card === 0)
       {
         cards[2].classList.add("card--left");
         cards[1].classList.add("card--right");
       }
-      if(card == 1)
+      if(card === 1)
       {
         cards[0].classList.add("card--left");
         cards[2].classList.add("card--right");
       }
-      if(card == 2)
+      if(card === 2)
       {
         cards[1].classList.add("card--left");
         cards[0].classList.add("card--right");
