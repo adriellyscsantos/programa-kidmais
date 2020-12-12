@@ -50,9 +50,10 @@ const Cards = ((() => {
         cards[0].classList.add("card--right");
       }
     }
-  
+    Cards();
     return {
       init
+     
     }
   })());
     return(
