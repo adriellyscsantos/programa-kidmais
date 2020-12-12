@@ -1,0 +1,123 @@
+
+h2{
+ color: #833AB4;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  margin-left: 600px;
+  margin-top: 50px;
+
+}
+h2:after{
+  content: '';
+      display: block;
+      height: 3px;
+      width: 30%;
+      background: #A1236D;
+      left: 50%;
+      transform: translateX(-15%);
+      bottom: -1000px;
+  }
+.projetos {
+   
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .projetos .box-img {
+
+    background-color: white;
+    margin: 2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.20);
+  }
+
+  @keyframes flip {
+    0% {
+      transform: rotateY(0);
+    }
+  
+    100% {
+      transform: rotateY(90deg);
+      background-color: white;
+      
+    }
+  }
+
+  .projetos .box-img:hover {
+    animation: flip 1s alternate infinite ease-in-out;
+    background-color: #F3E0FD;
+    box-shadow: 0 10px 25px rgba(0,0,0,.20);
+    
+    
+  }
+ 
+  
+  .projetos .box-img .img{
+    background: url('https://www.flaticon.com/svg/static/icons/svg/3534/3534082.svg') center;
+    background-size: cover;
+    display: block;
+    width: 150px;
+    height: 150px;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  .projetos .box-img .img2{
+    background: url('https://www.flaticon.com/svg/static/icons/svg/3062/3062418.svg') center;
+    background-size: cover;
+    display: block;
+    /* max-width: 400px; */
+    width: 150px;
+    height: 150px;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  .projetos .box-img .img3{
+    background: url('https://www.flaticon.com/svg/static/icons/svg/706/706164.svg') center;
+    background-size: cover;
+    display: block;
+    width: 150px;
+    height: 150px;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  .projetos .box-img .img4{
+    background: url('https://www.flaticon.com/svg/static/icons/svg/3827/3827707.svg') center;
+    background-size: cover;
+    display: block;
+    width: 150px;
+    height: 150px;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  .projetos .box-img .img5{
+    background: url('https://www.flaticon.com/svg/static/icons/svg/3062/3062359.svg') center;
+    background-size: cover;
+    display: block;
+    width: 150px;
+    height: 150px;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+ 
+  
+  .projetos .box-img .paragrafoss {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 300px;
+    font-family: sans-serif;
+  }
+  .projetos .box-img strong {
+     color: #833AB4;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+    
+    
+  }

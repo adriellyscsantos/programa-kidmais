@@ -1,0 +1,118 @@
+
+.barra-navegacao2{
+    background-color:  #A1236D;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  
+ 
+}
+
+
+.barra-navegacao2 .img-nav{
+    background: url('../../Assets/logotipo.png') no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+    margin-right: 270px;
+    margin-top: 5px;
+}
+
+
+.barra-navegacao2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+  
+}
+
+.barra-navegacao2 li{
+    margin-left: 5px;
+    margin-top: 10px;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+   
+}
+.barra-navegacao2 li .anchor1{
+    margin-top: 20px;
+    list-style-type: none;
+    color: #F8DE44;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    
+   
+}
+.barra-navegacao2 li .anchor1:hover{
+    color: #fff;
+}
+.barra-navegacao2 li .anchor:hover{
+    color: #F8DE44;
+}
+.barra-navegacao2 li .anchor{
+    /* margin-left: 5px; */
+    margin-top: 20px;
+    list-style-type: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    
+   
+}
+
+.barra-navegacao2 li .link{
+    margin-left: 40px;
+    margin-top: 20px;
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    
+   
+}
+.barra-navegacao2 button{
+    background-color: #F8DE44;
+    padding: 7px 25px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 100px;
+    font-weight: bold;
+    color: #A1236D;
+    
+    
+
+}
+
+.barra-navegacao2 button:hover{
+    background-color: #5F388C;
+}
+.barra-navegacao2 button .link{
+    color: #A1236D;
+    text-decoration: none;
+
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.barra-navegacao2 button .link:hover{
+    color: #fff;
+}
+
+

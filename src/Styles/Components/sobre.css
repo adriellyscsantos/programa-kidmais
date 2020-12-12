@@ -1,0 +1,132 @@
+body{
+    background: #F3E0FD;
+}
+h3{
+    color: #833AB4;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+h3:after{
+content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 17%;
+    background: #AA236D;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -60px;
+}
+.main{
+  
+    background-color: white;
+    margin: 0 50px;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.20);
+ 
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+ 
+ 
+}
+
+section .box-paragrafos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    
+    
+    
+}
+section .box-paragrafos2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+    
+    
+}
+
+section .box-paragrafos3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+    
+    
+    
+}
+section .paragrafos{
+  
+    background: url('../../Assets/livro1.svg') center center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+section .paragrafos2{
+  
+    background: url('../../Assets/livro2.svg') center center;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+}
+section .paragrafos3{
+  
+    background: url('../../Assets/livro3.svg') center center;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+}
+section .sobre-paragrafos {
+   background-color: #833AB4;
+   color: white;
+   padding: 35px;
+   border-radius: 60px;
+   width: 500px;
+   /* margin-left: 50px; */
+   font-size: 18px;
+   font-family: sans-serif;
+   
+   
+
+}
+
+ section .sobre-paragrafos2 {
+   background-color:  #AA236D;
+   color: white;
+   padding: 35px;
+   border-radius: 60px;
+   width: 500px;
+   margin-top: 10px;
+  
+   font-size: 18px;
+   font-family: sans-serif;
+}
+section .sobre-paragrafos3 {
+   background-color:   #833AB4;
+   color: white;
+   padding: 35px;
+   border-radius: 60px;
+   width: 500px;
+   margin-top: 10px;
+   font-size: 18px;
+   font-family: sans-serif;
+   margin-left: 5px;
+  
+} 
+
+

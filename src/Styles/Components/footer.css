@@ -1,0 +1,32 @@
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A1236D;
+    height: 40px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+   
+}
+
+
+.redes{
+    display: flex;
+    margin-left: 730px;
+    justify-content: flex-end;
+}
+
+.instagram{
+
+   margin-left: 15px; 
+}
+.linkedin{
+
+   margin-left: 15px; 
+}
+.github{
+
+   margin-left: 15px; 
+}
+
